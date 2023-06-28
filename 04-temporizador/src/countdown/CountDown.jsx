@@ -20,7 +20,7 @@ function CountDown() {
     return(
         <>
             <p>¿Cuantos segundos quieres contar?</p>
-            
+            {/* The heading text is large */}
             <form action="#" onSubmit={ev => parseForm(ev)}>
                 <input type="number" name="Seconds" />
             </form>
